@@ -1,0 +1,13 @@
+{
+  "module_id": "mohid-soln-interview:person-detector",
+  "visibility": "public",
+  "url": "example.com/person-detector",
+  "description": "Person detection sensor using vision service",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "mohid-soln-interview:sensor:person-sensor"
+    }
+  ],
+  "entrypoint": "run.sh"
+} 
